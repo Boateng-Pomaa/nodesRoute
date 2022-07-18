@@ -1,0 +1,53 @@
+header{
+    display: flex;
+    background-color: orange;
+    padding: 1px;
+    margin: 2px;
+}
+h3{
+    color: darkred;
+    align-items :center;
+}
+
+
+.mm_menu{
+    background-color:rgb(222, 151, 151);
+    height: 80px;
+    width: 100%;
+    padding: 0.1 50%;
+    justify-content: space-between;
+    display: flex;
+
+}
+body{
+    background-color: white;
+}
+.mm_menu ul{
+    color: #ffffff;
+    font-size: 30px;
+    list-style: none;
+    margin: 25px;
+
+}
+.mm_menu ul li{
+    padding:10px 10px;
+    position: relative;
+    display: inline-block;
+    
+}
+.mm_menu ul li a{
+    text-decoration: none;
+    transition: all 0.4s;
+    color: white;
+}
+.mm_menu ul li a:hover{
+    color: yellow;
+}
+.mm_drop{
+    display: none;
+
+}
+.mm_menu ul li a:hover .mm_drop{
+    position: absolute;
+    background-color:aqua;
+}
